@@ -7,7 +7,12 @@ const ingredients = [
   "Condiments",
 ];
 // create new ingridients li
-function ulIngidients(arr) {
-  arr.forEach((elment) => document.createElement("li".textContent(elment)));
-}
-ulIngidients(ingredients);
+const createLi = ingredients.map((item) => {
+  const element = document.createElement("li");
+  element.textContent = item;
+  element.classList.add("item");
+  let adder = document.querySelector("#ingredients");
+  adder.append(element);
+  return element;
+});
+
