@@ -1,3 +1,4 @@
+"use strict";
 const ingredients = [
   "Potatoes",
   "Mushrooms",
@@ -15,4 +16,3 @@ const createLi = ingredients.map((item) => {
   adder.append(element);
   return element;
 });
-
