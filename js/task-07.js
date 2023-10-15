@@ -1,4 +1,3 @@
-"use strict";
 const fontSizeController = document.querySelector("#font-size-control");
 const textBox = document.querySelector("#text");
 

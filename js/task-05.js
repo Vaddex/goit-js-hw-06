@@ -1,4 +1,3 @@
-"use strict";
 const inputForm = document.querySelector("#name-input");
 const outputString = document.querySelector("#name-output");
 

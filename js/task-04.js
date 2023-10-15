@@ -1,4 +1,3 @@
-"use strict";
 const incBtn = document.querySelector('button[data-action="increment"]');
 const decBtn = document.querySelector('button[data-action="decrement"]');
 const visualValue = document.querySelector("#value");

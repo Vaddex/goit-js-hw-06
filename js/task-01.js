@@ -1,7 +1,6 @@
-"use strict";
 // total categories li count
 const liCount = document.querySelectorAll(".item");
-console.log(liCount.length);
+console.log(`Number of categories: ${liCount.length}`);
 
 liCount.forEach((item) =>
   console.log(

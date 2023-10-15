@@ -1,4 +1,3 @@
-"use strict";
 const inputForm = document.querySelector("#validation-input");
 const inputBasicLength = Number(inputForm.dataset.length);
 
