@@ -15,6 +15,6 @@ function handlerSubmit(event) {
     alert("всі поля повинні бути заповнені.");
   } else {
     console.log(data);
+    event.currentTarget.reset();
   }
-  event.currentTarget.reset();
 }
